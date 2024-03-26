@@ -193,7 +193,7 @@ function CodePreview({ isDarkMode, children }: PropsWithChildren<{ isDarkMode: b
 }
 
 function EditOnGithubButton({ githubSlug }: { githubSlug: string }) {
-  const githubSrcHref = 'https://github.com/themesberg/flowbite-react/blob/main/examples/';
+  const githubSrcHref = 'https://github.com/themesberg/flowbite-react/blob/main/apps/web/examples/';
   const href = `${githubSrcHref}${githubSlug}`;
 
   return (
